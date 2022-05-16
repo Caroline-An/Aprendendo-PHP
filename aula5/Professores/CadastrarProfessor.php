@@ -24,7 +24,7 @@ require_once 'Professores.php';
             $aluno->setEndereco($endereco);
 
             if($aluno->insert()){
-                echo "Aluno ". $nome. " inserido com sucesso";
+                echo "Professor ". $nome. " inserido com sucesso";
             }
       endif;
     ?>
